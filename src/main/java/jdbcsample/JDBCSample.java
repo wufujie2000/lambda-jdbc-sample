@@ -17,9 +17,9 @@ public class JDBCSample {
 
     // Get time from DB server
     try {
-      String url = "jdbc:mysql://HOSTNAME:3306";
-      String username = "USERNAME";
-      String password = "PASSWORD";
+      String url = "jdbc:mysql://192.168.0.2:3306";
+      String username = "root";
+      String password = "2222";
 
       Connection conn = DriverManager.getConnection(url, username, password);
       Statement stmt = conn.createStatement();
